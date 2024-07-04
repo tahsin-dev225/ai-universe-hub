@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Universe</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .customize{
+            list-style:disc
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl my-8 text-center font-semibold ">Ai Univese Hub</h1>
+        <div class="flex justify-center my-4"><button class="btn text-white bg-[#EB5757] mx-auto">Short by date</button></div>
+    </header>
+    <main>
+        <div id="ai-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-5 gap-4">
+        </div>
+        
+        
+<!-- -->
+        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+        <div class="w-9/12 p-10 bg-white rounded">
+            <div id="show-details-container" class="flex gap-4">
+
+            </div>
+            <div class="modal-action">
+            <form method="dialog">
+                
+                <button class="btn-accent p-1">Close</button>
+            </form>
+            </div>
+        </div>
+        </dialog> 
+
+
+
+
+        <!-- <div class="flex">
+            <div class="bg-red-50 border-red-400 border ">
+                <h4 class="text-xl p-2">${tool.description} Lorem ipsum dolor sit amet    consectetur adipisicing elit. Harum architecto veniam amet inventore sunt quos laborum repudiandae asperiores soluta, debitis voluptates aliquam hic vel natus doloremque cupiditate libero. Blanditiis, tenetur.
+                </h4>
+                <div class="flex gap-3 justify-around p-2">
+                    <div class="w-20 text-center p-2 bg-white rounded-md  text-green-500 font-bold">$10/ month Basic</div>
+                    <div class="w-20 text-center p-2 bg-white rounded-md text-orange-400 font-bold">$50/ month Pro</div>
+                    <div class="w-24 text-center p-2 bg-white rounded-md text-red-600 font-bold">Contact us Enterprise</div>
+                </div>
+                <div class="flex justify-around my-4">
+                    <h1 class="text-2xl font-bold ">Features</h1>
+                    <h1 class="text-2xl font-bold ">Integrations</h1>
+                </div>
+                <div class="flex justify-around">
+                    <ul class="customize">
+                        <li>Customizable responses</li>
+                        <li>Multilingual support</li>
+                        <li>Seamless integration</li>
+                    </ul>
+                    <ul class="customize">
+                        <li>FB Messenger</li>
+                        <li>Slack</li>
+                        <li>Telegram</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="">
+                <img src="${newTool.image_link}" alt=""/>
+            </div>
+        </div> -->
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
